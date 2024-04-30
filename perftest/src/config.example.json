@@ -1,0 +1,11 @@
+{
+  "password": "test-user-password",
+  "baseUrl": "baseUrl",
+  "virtualUsers": 5,
+  "duration": "10s",
+  "rampDuration": "3s",
+  "delaySeconds": 0,
+  "tenantId": 99,
+  "fullFailureCheck": false,
+  "loginUrl": "loginURL"
+}

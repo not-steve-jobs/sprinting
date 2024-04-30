@@ -1,0 +1,25 @@
+@userToken = Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ilg1ZVhrNHh5b2pORnVtMWtsMll0djhkbE5QNC1jNTdkTzZRR1RWQndhTmsifQ.eyJleHAiOjE2MTczODMxOTksIm5iZiI6MTYxNzM3OTU5OSwidmVyIjoiMS4wIiwiaXNzIjoiaHR0cHM6Ly9iMmNldXJ3d2RldmlkcC5iMmNsb2dpbi5jb20vNGJkMjU4MDEtN2FhNC00ZWU1LWJjNDUtYzBjZGNhYTJlY2NhL3YyLjAvIiwic3ViIjoiZDU5YjNiNTUtMWRmMS00NWZiLTkyN2MtMzA4MmQ5M2M5NzhiIiwiYXVkIjoiOGQ3NzI0YjYtYjIxYy00YzY3LThjNDItYWNhNWFkZTgxYmMyIiwibm9uY2UiOiJkZWZhdWx0Tm9uY2UiLCJpYXQiOjE2MTczNzk1OTksImF1dGhfdGltZSI6MTYxNzM3OTU5OSwiZW1haWxzIjpbIm12cGRlbW9AbWFpbGluYXRvci5jb20iXSwidGZwIjoiQjJDXzFfY2xpZW50X2FjY2Vzc19zaWduaW4ifQ.L5uZx4UQjnA8hzeUNcw_YYDJhcPFGnqbpbpfFHDZvveYR9qQJFuLODzV90ENvilSWbxttvxLVDi50tnKByHsOYO6OTpxqLeRBk1Z9Mhu0WtEViCx80tsaKVR05PLu0ltOH3cHtLXQFpsZkbVmXUxXlSaEBwklBVGk-bSJitqnLv48H16JswY2Lj9ZjmNU8KQVXf32up5S5jSCi-_F7VFqsXzyBIhwLbNflfM3BiM_pT9A3CCIfOyjnbZvmVAdd2O5Wp-KxsVuo7TDQioS1nWUXv3CMCctwPPnZalRcTRLaC269SBeihTSZbbcP1q8KHMOLtH-cqd36vRNE91nVDxkg
+
+# @name User
+GET {{baseUrl}}/tenant/{{tenantId}}/user/{{userId}}
+x-tenantId: {{tenantId}}
+Authorization: {{userToken}}
+
+###
+# @name UserProfile
+GET {{baseUrl}}/tenant/{{tenantId}}/user/{{userId}}/user-profile
+x-tenantId: {{tenantId}}
+Authorization: {{userToken}}
+
+###
+# @name ClientConfiguration
+GET {{baseUrl}}/tenant/{{tenantId}}/client/{{clientId}}/configuration/mainMenu/CLA/3
+x-tenantId: {{tenantId}}
+Authorization: {{userToken}}
+
+
+###
+# @name MainMenu
+GET {{baseUrl}}/tenant/{{tenantId}}/client/{{clientId}}/main-menu
+x-tenantId: {{tenantId}}
+Authorization: {{userToken}}

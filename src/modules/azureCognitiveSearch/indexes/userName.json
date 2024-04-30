@@ -1,0 +1,46 @@
+{
+  "name": "usernames",
+  "fields": [
+    {
+      "name": "id",
+      "type": "Edm.String",
+      "key": true,
+      "filterable": true,
+      "searchable": false
+    },
+    {
+      "name": "tenantId",
+      "type": "Edm.Int32",
+      "filterable": true,
+      "searchable": false
+    },
+    {
+      "name": "clientId",
+      "type": "Edm.String",
+      "filterable": true,
+      "searchable": false
+    },
+    {
+      "name": "firstName",
+      "type": "Edm.String",
+      "filterable": true,
+      "searchable": true,
+      "facetable": false
+    },
+    {
+      "name": "lastName",
+      "type": "Edm.String",
+      "filterable": true,
+      "searchable": true,
+      "facetable": false
+    },
+    {
+      "name": "fullName",
+      "type": "Edm.String",
+      "filterable": true,
+      "searchable": false,
+      "facetable": false
+    }
+  ],
+  "suggesters": []
+}

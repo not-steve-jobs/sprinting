@@ -1,0 +1,133 @@
+{
+  "tenantIds": [
+    {
+      "tenantId": 137,
+      "users": [
+        {
+          "email": "mvpdemo+CH@yopmail.com",
+          "id": "00000000-0000-4000-0000-000000000004"
+        },
+        {
+          "email": "perftest01@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000101"
+        },
+        {
+          "email": "perftest02@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000102"
+        },
+        {
+          "email": "perftest03@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000103"
+        },
+        {
+          "email": "perftest04@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000104"
+        },
+        {
+          "email": "perftest05@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000105"
+        },
+        {
+          "email": "perftest06@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000106"
+        },
+        {
+          "email": "perftest07@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000107"
+        },
+        {
+          "email": "perftest08@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000108"
+        },
+        {
+          "email": "perftest09@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000109"
+        },
+        {
+          "email": "perftest10@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000110"
+        },
+        {
+          "email": "perftest11@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000111"
+        },
+        {
+          "email": "perftest12@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000112"
+        },
+        {
+          "email": "perftest13@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000113"
+        },
+        {
+          "email": "perftest14@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000114"
+        },
+        {
+          "email": "perftest15@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000115"
+        },
+        {
+          "email": "perftest16@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000116"
+        },
+        {
+          "email": "perftest17@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000117"
+        },
+        {
+          "email": "perftest18@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000118"
+        },
+        {
+          "email": "perftest19@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000119"
+        },
+        {
+          "email": "perftest20@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000120"
+        },
+        {
+          "email": "perftest21@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000121"
+        },
+        {
+          "email": "perftest22@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000122"
+        },
+        {
+          "email": "perftest23@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000123"
+        },
+        {
+          "email": "perftest24@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000124"
+        },
+        {
+          "email": "perftest25@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000125"
+        },
+        {
+          "email": "perftest26@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000126"
+        },
+        {
+          "email": "perftest27@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000127"
+        },
+        {
+          "email": "perftest28@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000128"
+        },
+        {
+          "email": "perftest29@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000129"
+        },
+        {
+          "email": "perftest30@yopmail.com",
+          "id": "00000000-0000-8000-0000-000000000130"
+        }
+      ]
+    }
+  ]
+}

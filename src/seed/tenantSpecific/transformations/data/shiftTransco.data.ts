@@ -1,0 +1,63 @@
+import {ShiftTransco} from 'src/modules/transformations/entities/shiftTransco.entity';
+import {
+  Brands,
+  Country,
+  Shifts,
+  ShiftTranscoData,
+  TranscoTableData,
+} from 'src/modules/transformations/enums/transformations.types';
+
+export const shiftTranscoData: ShiftTranscoData[] = [
+  {shiftId: 1, shift: Shifts.MORNING, country: Country.PL, brand: Brands.ADECCO},
+  {shiftId: 2, shift: Shifts.AFTERNOON, country: Country.PL, brand: Brands.ADECCO},
+  {shiftId: 3, shift: Shifts.NIGHT, country: Country.PL, brand: Brands.ADECCO},
+  {shiftId: 18, shift: Shifts.I_SHIFT, country: Country.PL, brand: Brands.ADECCO},
+  {shiftId: 19, shift: Shifts.II_SHIFTS, country: Country.PL, brand: Brands.ADECCO},
+  {shiftId: 20, shift: Shifts.III_SHIFTS, country: Country.PL, brand: Brands.ADECCO},
+  {shiftId: 21, shift: Shifts.CONTINOUS_IV_SHIFTS, country: Country.PL, brand: Brands.ADECCO},
+  {shiftId: 22, shift: Shifts.WORKING_TIME_12H, country: Country.PL, brand: Brands.ADECCO},
+  {shiftId: 23, shift: Shifts.WEEKENDS_FSS, country: Country.PL, brand: Brands.ADECCO},
+  {shiftId: 4, shift: Shifts.AFTERNOON, country: Country.LU, brand: Brands.ADECCO},
+  {shiftId: 5, shift: Shifts.EVENING, country: Country.LU, brand: Brands.ADECCO},
+  {shiftId: 6, shift: Shifts.MORNING, country: Country.LU, brand: Brands.ADECCO},
+  {shiftId: 7, shift: Shifts.NIGHT, country: Country.LU, brand: Brands.ADECCO},
+  {shiftId: 8, shift: Shifts.SHIFT_2X8, country: Country.LU, brand: Brands.ADECCO},
+  {shiftId: 9, shift: Shifts.SHIFT_3X8, country: Country.LU, brand: Brands.ADECCO},
+  {shiftId: 10, shift: Shifts.SHIFT_4X8, country: Country.LU, brand: Brands.ADECCO},
+  {shiftId: 11, shift: Shifts.DAY, country: Country.LU, brand: Brands.ADECCO},
+  {shiftId: 12, shift: Shifts.FRIDAY_AND_WEEKEND, country: Country.LU, brand: Brands.ADECCO},
+  {shiftId: 13, shift: Shifts.WEEKEND, country: Country.LU, brand: Brands.ADECCO},
+  {shiftId: 14, shift: Shifts.CUT_OFF, country: Country.LU, brand: Brands.ADECCO},
+  {shiftId: 24, shift: Shifts.MORNING, country: Country.CH, brand: Brands.ADECCO},
+  {shiftId: 25, shift: Shifts.AFTERNOON, country: Country.CH, brand: Brands.ADECCO},
+  {shiftId: 26, shift: Shifts.NIGHT, country: Country.CH, brand: Brands.ADECCO},
+  {shiftId: 27, shift: Shifts.ROTATING, country: Country.CH, brand: Brands.ADECCO},
+  {shiftId: 28, shift: Shifts.ALL_DAY, country: Country.CH, brand: Brands.ADECCO},
+  {shiftId: 29, shift: Shifts.WEEKEND, country: Country.CH, brand: Brands.ADECCO},
+  {shiftId: 60, shift: Shifts.AFTERNOON, country: Country.AF, brand: Brands.ADECCO},
+  {shiftId: 61, shift: Shifts.MORNING, country: Country.AF, brand: Brands.ADECCO},
+  {shiftId: 62, shift: Shifts.NIGHT, country: Country.AF, brand: Brands.ADECCO},
+  {shiftId: 63, shift: Shifts.I_SHIFT, country: Country.AF, brand: Brands.ADECCO},
+  {shiftId: 64, shift: Shifts.II_SHIFTS, country: Country.AF, brand: Brands.ADECCO},
+  {shiftId: 65, shift: Shifts.III_SHIFTS, country: Country.AF, brand: Brands.ADECCO},
+  {shiftId: 66, shift: Shifts.WEEKENDS_FSS, country: Country.AF, brand: Brands.ADECCO},
+  {shiftId: 68, shift: Shifts.CONTINOUS_IV_SHIFTS, country: Country.AF, brand: Brands.ADECCO},
+  {shiftId: 69, shift: Shifts.WORKING_TIME_12H, country: Country.AF, brand: Brands.ADECCO},
+  {shiftId: 60, shift: Shifts.AFTERNOON, country: Country.FC, brand: Brands.FOCORE},
+  {shiftId: 61, shift: Shifts.MORNING, country: Country.FC, brand: Brands.FOCORE},
+  {shiftId: 62, shift: Shifts.NIGHT, country: Country.FC, brand: Brands.FOCORE},
+  {shiftId: 63, shift: Shifts.I_SHIFT, country: Country.FC, brand: Brands.FOCORE},
+  {shiftId: 64, shift: Shifts.II_SHIFTS, country: Country.FC, brand: Brands.FOCORE},
+  {shiftId: 65, shift: Shifts.III_SHIFTS, country: Country.FC, brand: Brands.FOCORE},
+  {shiftId: 66, shift: Shifts.WEEKENDS_FSS, country: Country.FC, brand: Brands.FOCORE},
+  {shiftId: 68, shift: Shifts.CONTINOUS_IV_SHIFTS, country: Country.FC, brand: Brands.FOCORE},
+  {shiftId: 69, shift: Shifts.WORKING_TIME_12H, country: Country.FC, brand: Brands.FOCORE},
+];
+
+export const shiftTranscoKeys = ['country', 'brand', 'shiftId'];
+
+export const shiftTranscoTableData: TranscoTableData = {
+  entity: ShiftTransco,
+  data: shiftTranscoData,
+  primaryKeys: shiftTranscoKeys,
+};

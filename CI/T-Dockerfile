@@ -1,0 +1,17 @@
+FROM node:12
+
+RUN apt-get update && apt-get install python -y
+
+# Create app directory
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+
+COPY . /usr/src/app
+RUN npm ci
+RUN npm run build
+
+# Need to check these are the only ports
+EXPOSE 3000
+
+# Start app
+CMD [ "npm", "run", "azure:start:test" ]

@@ -1,0 +1,87 @@
+{
+  "name": "locations",
+  "fields": [
+    {
+      "name": "id",
+      "type": "Edm.String",
+      "key": true,
+      "filterable": true,
+      "searchable": false
+    },
+    {
+      "name": "tenantId",
+      "type": "Edm.Int32",
+      "filterable": true
+    },
+    {
+      "name": "clientId",
+      "type": "Edm.String",
+      "filterable": true,
+      "searchable": false,
+      "facetable": false
+    },
+    {
+      "name": "isMainLocation",
+      "type": "Edm.Boolean",
+      "filterable": true,
+      "searchable": false,
+      "facetable": false
+    },
+    {
+      "name": "locationName",
+      "type": "Edm.String",
+      "filterable": true,
+      "searchable": true,
+      "facetable": false
+    },
+    {
+      "name": "street",
+      "type": "Edm.String",
+      "filterable": true,
+      "searchable": true,
+      "facetable": false
+    },
+    {
+      "name": "number",
+      "type": "Edm.String",
+      "filterable": true,
+      "searchable": true,
+      "facetable": false
+    },
+    {
+      "name": "city",
+      "type": "Edm.String",
+      "filterable": true,
+      "searchable": true,
+      "facetable": false
+    },
+    {
+      "name": "state",
+      "type": "Edm.String",
+      "filterable": true,
+      "searchable": true,
+      "facetable": false
+    },
+    {
+      "name": "country",
+      "type": "Edm.String",
+      "filterable": true,
+      "searchable": true,
+      "facetable": false
+    },
+    {
+      "name": "zip",
+      "type": "Edm.Int32",
+      "filterable": true,
+      "facetable": false
+    },
+    {
+      "name": "status",
+      "type": "Edm.String",
+      "filterable": true,
+      "searchable": true,
+      "facetable": false
+    }
+  ],
+  "suggesters": []
+}

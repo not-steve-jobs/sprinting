@@ -1,0 +1,34 @@
+import {DaysInWeekEnum} from 'src/modules/jobOrder/jobOrder.enum';
+export interface JobCreatedData {
+  submissionDate: Date;
+  additionalInformation: string;
+  branchId: string;
+  contractType: string;
+  contractTypeId?: number;
+  dateEnd: Date;
+  dateStart: Date;
+  id: string;
+  interviewRequired: boolean;
+  jobDescription: string;
+  locationId: string;
+  name: string;
+  numberOfOpenings: number;
+  rate: string;
+  rateId?: number;
+  salary: number;
+  salaryHigh: number;
+  minimumPayRate?: number;
+  maximumPayRate?: number;
+  serviceType: string;
+  serviceTypeId?: number;
+  shift: string;
+  shiftId?: number;
+  userId: string;
+  daysInWeek: DaysInWeekEnum[];
+  isDisplayed: boolean;
+  experience?: string;
+  experienceId?: number;
+  startTime?: string;
+  endTime?: string;
+  dayOneGuidance?: string;
+}

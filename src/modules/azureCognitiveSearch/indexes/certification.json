@@ -1,0 +1,26 @@
+{
+  "name": "certifications",
+  "fields": [
+    {
+      "name": "id",
+      "type": "Edm.String",
+      "key": true,
+      "filterable": true,
+      "searchable": false
+    },
+    {
+      "name": "tenantId",
+      "type": "Edm.Int32",
+      "filterable": true,
+      "searchable": false
+    },
+    {
+      "name": "name",
+      "type": "Edm.String",
+      "filterable": true,
+      "searchable": true,
+      "facetable": false
+    }
+  ],
+  "suggesters": []
+}

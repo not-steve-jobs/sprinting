@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  postgres:
+    build: ./
+    environment:
+      POSTGRES_DB: clientaccess
+      POSTGRES_USER: clientaccess
+      POSTGRES_PASSWORD: clientaccess
+    ports:
+      - "5432:5432"
